@@ -6,7 +6,8 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className="app">
+  <div>
+              <div className="app">
             <div className="navbar">
                 <Navbar />
             </div>
@@ -33,11 +34,11 @@ const App = () => {
                     </div>
                 </Layout>
             </div>
-            <div className="footer">
-
-            </div>
         </div>
+         <div className="footer">
+         </div>
+  </div>
     )
 }
 
-export default App
+export default App;
