@@ -384,7 +384,8 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
-    height: fit-content;
-    width: 100%;
-    /* z-index: 9999; */
+    text-align: center;
+}
+ #footer{
+    color:'white';
 }
