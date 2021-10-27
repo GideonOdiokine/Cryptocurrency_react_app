@@ -6,7 +6,7 @@ import './App.css';
 
 const App = () => {
     return (
-        <div>
+       
             <div className="app">
                 <div className="navbar">
                     <Navbar />
@@ -33,9 +33,7 @@ const App = () => {
                             </Switch>
                         </div>
                     </Layout>
-                </div>
-            </div>
-            <div className="footer">
+                    <div className="footer">
                 <Typography.Title level={5} styles={{color:'white', textAlign:'center'}} >
                     Cryptoverse <br />
                     All rights reserved
@@ -47,7 +45,10 @@ const App = () => {
                 </Space>
 
             </div>
-        </div>
+                </div>
+            </div>
+           
+  
     )
 }
 
