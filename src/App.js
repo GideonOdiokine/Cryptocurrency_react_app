@@ -45,7 +45,6 @@ const App = () => {
                         <Link to='/exchanges'>Exchanges</Link>
                         <Link to='/news'>News</Link>
                     </Space>
-
                 </div>
             </div>
         </div>
