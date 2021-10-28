@@ -40,7 +40,7 @@ const App = () => {
                         </Link> <br />
                         All Rights Reserved.
                     </Typography.Title>
-                    <Space>
+                    <Space style={{ color: 'white' }}>
                         <Link to='/'>Home</Link>
                         <Link to='/exchanges'>Exchanges</Link>
                         <Link to='/news'>News</Link>
