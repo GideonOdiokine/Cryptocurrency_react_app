@@ -40,10 +40,10 @@ const App = () => {
                         </Link> <br />
                         All Rights Reserved.
                     </Typography.Title>
-                    <Space style={{ color: 'white' }}>
-                        <Link to='/'>Home</Link>
-                        <Link to='/exchanges'>Exchanges</Link>
-                        <Link to='/news'>News</Link>
+                    <Space >
+                        <Link to='/' style={{ color: 'white' }}>Home</Link>
+                        <Link to='/exchanges' style={{ color: 'white' }}>Exchanges</Link>
+                        <Link to='/news' style={{ color: 'white' }}>News</Link>
                     </Space>
                 </div>
             </div>
