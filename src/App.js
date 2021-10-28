@@ -35,7 +35,7 @@ const App = () => {
                 </Layout>
                 <div className="footer">
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-                        <Link to="/">
+                        <Link to="/" style={{ color: 'white' }}>
                             Cryptoverse Inc.
                         </Link> <br />
                         All Rights Reserved.
