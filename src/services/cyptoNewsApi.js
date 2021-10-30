@@ -12,4 +12,9 @@ const createRequest = (url) => ({ url, headers: cryptoNewsApiHeaders })
 export const cryptoNewsApi = createApi({
   reducerPath: 'cryptoNewsApi',
    baseQuery: fetchBaseQuery({ baseUrl }),
+     endpoints: (builder) => ({
+        getCryptos: builder.query({
+            query: (count) => createRequest(`/coins?limit=${count}`)
+        })
+    })
 )}
