@@ -5,4 +5,4 @@ const cryptoNewsApiHeaders = {
     'x-rapidapi-key': '21b4c9853emshdf9bc0eead1a265p1d71e7jsne7e2aca335d6'
 }
 
-const baseUrl 
+const baseUrl= 'https://coinranking1.p.rapidapi.com/'
