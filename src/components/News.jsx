@@ -10,9 +10,11 @@ const { Text, Title } = Typography;
 const { Option } = Select;
 
 const News = ({simplified}) => {
+    // const count = simplified ? 10 : 100;
     const [newsCategory, setNewsCategory] = useState('Cryptocurrency');
-    const {data, isFetching} = useGetCryptoNewsQuery(10);
-    console.log(data)
+  const { data: cryptoNews } = useGetCryptoNewsQuery({ newsCategory:"Cryptocurrency", count: simplified ? 10 : 100 });
+
+    console.log(cryptoNews)
     return (
         <div>
             News
