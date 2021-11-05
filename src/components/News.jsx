@@ -50,7 +50,7 @@ const News = ({ simplified }) => {
 								<Title className='news-title' level={4}>
 									{news.name}
 								</Title>
-								<img style={{maxWidth:'400px', width:"200px", maxHeight:'100px'}}
+								<img style={{maxWidth:'400px', width:"200px",}}
 									src={news?.image?.thumbnail?.contentUrl || demoImage}
 									alt=''
 								/>
