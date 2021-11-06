@@ -13,7 +13,7 @@ const CryptoDetails = () => {
     const { coinId } = useParams();
     return (
         <div>
-            ctypD
+            ctypDetails {coinId}
         </div>
     )
 }
