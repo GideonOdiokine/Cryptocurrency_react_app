@@ -6,7 +6,11 @@ import { Col, Row, Typography, Select } from 'antd';
 import { MoneyCollectOutlined, DollarCircleOutlined, FundOutlined, ExclamationCircleOutlined, StopOutlined, TrophyOutlined, CheckOutlined, NumberOutlined, ThunderboltOutlined } from '@ant-design/icons';
 
 
+const { Title, Text } = Typography;
+const { Option } = Select;
+
 const CryptoDetails = () => {
+    const { coinId } = useParams();
     return (
         <div>
             ctypD
