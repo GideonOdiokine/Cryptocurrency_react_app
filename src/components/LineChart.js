@@ -1,15 +1,10 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
-
 import { Col, Row, Typography } from 'antd';
-
-
 
 const { Title } = Typography;
 
-
 const LineChart = ({ coinHistory, currentPrice, coinName }) => {
-
     const coinPrice = [];
     const coinTimestamp = [];
 
@@ -45,6 +40,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
             ],
         },
     };
+
     return (
         <>
             <Row className="chart-header">
@@ -56,7 +52,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
             </Row>
             <Line data={data} options={options} />
         </>
-    )
-}
+    );
+};
 
-export default LineChart
+export default LineChart;
