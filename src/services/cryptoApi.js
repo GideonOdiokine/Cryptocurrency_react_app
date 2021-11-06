@@ -19,10 +19,13 @@ export const cryptoApi = createApi({
         }),
         getExchanges: builder.query({
             query: () => createRequest('/exchanges'),
-          })
+        }),
+        getCryptoDetails: builder.query({
+            query: (coinId) => createRequest(`/coin/${coinId}`),
+        }),
     })
 })
 
 export const {
-    useGetCryptosQuery, useGetExchangesQuery
+    useGetCryptosQuery, useGetExchangesQuery, useGetCryptoDetailsQuery
 } = cryptoApi
