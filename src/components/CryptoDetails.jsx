@@ -11,6 +11,9 @@ const { Option } = Select;
 
 const CryptoDetails = () => {
     const { coinId } = useParams();
+    const [timeperiod, setTimeperiod] = useState('7d');
+
+    
     return (
         <div>
             ctypDetails {coinId}
